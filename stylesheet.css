@@ -1,0 +1,76 @@
+div {
+    
+}
+
+.container {
+    display: flex;
+    
+}
+
+.container > * {
+    display:flex;
+}
+
+.container .head1 {
+    border: 1px solid black;
+    flex-grow: 4;
+    margin: 5px;
+    padding:10px;
+    height:100px;
+    background-color: bisque;
+}
+
+.container .head2 {
+    border: 1px solid black;
+    flex-grow: 1;
+    margin: 5px;
+    padding:10px;
+    height: 100px;
+    background-color: rgb(175, 105, 20);
+}
+
+.container-main-aside .aside {
+    flex-direction: column;
+    flex-grow: 1;
+}
+
+.container-main-aside .aside .side1 {
+    border: 1px solid black;
+    padding: 10px;
+    margin: 5px;
+    height: 200px;
+}
+
+.container-main-aside .aside .side2 {
+    border: 1px solid black;
+    padding: 10px;
+    margin: 5px;
+    height: 400px;
+}
+
+.container-main-aside .main {
+    flex-direction: row;
+    flex-grow: 4;
+}
+
+.container-main-aside .main1 {
+    border: 1px solid black;
+    padding: 10px;
+    margin: 5px;
+    flex-grow: 4;
+}
+
+.container-main-aside .main2 {
+    border: 1px solid black;
+    padding: 10px;
+    margin: 5px;
+    flex-grow: 1.5;
+}
+
+.footer {
+    display: flex;
+    border: 1px solid black;
+    margin: 5px;
+    padding:10px;
+    height: 100px;
+}
